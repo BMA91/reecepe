@@ -1,0 +1,150 @@
+
+body{
+ background-color:hsl(30, 54%, 90%) ;
+ height: 100vh;
+ margin-top:25%;
+ margin-bottom: 10%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding-top: 5%;
+ padding-bottom: 16%;
+}
+.container{
+    margin-top: 20px;
+    background-color: white;
+    padding: 25px 25px;
+    display: block;
+    justify-content: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.container img{
+    width: 595px;
+    border-radius: 10px;
+    margin-bottom: 17px;
+}
+.title1{
+    font-size: 2.6em;
+    margin-bottom: 17px;
+    font-family:"Young Serif";
+}
+ .container #paragraph1{
+    width: 595px;
+    font-size: 17px;
+    color: hsl(30, 1%, 49%);
+    margin-bottom: 30px;
+    font-family: "Outfit", sans-serif;
+}
+.preparation{
+    background-color: hsl(330, 100%, 98%);
+    width: 595px;
+    border-radius: 7px;
+    padding-top: 18px;
+    margin-bottom: 22px;
+    font-family: "Outfit", sans-serif;
+}
+.preparation #title2 strong{
+    margin-left: 22px;
+    color: hsl(332, 51%, 32%);
+    font-size: 1.2em;
+    margin-bottom: 17px;
+}
+.preparation li{
+    padding-bottom: 9px;
+    padding-left: 15px;
+    color: hsl(30, 1%, 49%);
+}
+.liste1 li::marker{
+    font-size: 14px;
+    position: absolute;
+    bottom: 51px;
+    color: hsl(332, 51%, 32%);;
+}
+strong{
+    color: rgb(96, 97, 98);
+}
+#title3{
+    font-size: x-large;
+    color: hsl(15, 62%, 36%);
+    font-family:"Young Serif";
+}
+.ingredients li{
+    position: relative;
+    right: 17px;
+    padding-left: 15px;
+    padding-bottom: 7px;
+    color: hsl(30, 1%, 49%);
+    font-family: "Outfit", sans-serif;
+}
+.ingredients li::marker{
+   font-size: 14px;
+   color: hsl(15, 62%, 36%);
+}
+#ligne{
+    height: 1px;
+    width: 595px;
+    background-color: hsl(30, 1%, 49%);
+    margin-bottom: 18px;
+}
+.instruction{
+    width: 595px;
+}
+#title4{
+    font-size:x-large ;
+    color: hsl(15, 62%, 36%);
+    font-family:"Young Serif";
+}
+.instruction li{
+    margin-bottom: 8px;
+    padding-bottom: 4px; 
+    position: relative;
+    right: 17px;
+    padding-left: 15px;
+    color: hsl(30, 1%, 49%);
+    font-family: "Outfit", sans-serif;
+}
+.instruction li::marker{
+    font-size: 14px;
+    color: hsl(15, 62%, 36%);
+    font-weight: bold;
+ }
+ #hr0{
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+ #lasttitle{
+    font-size:x-large ;
+    color: hsl(15, 62%, 36%);
+    font-family:"Young Serif";
+ }
+ #discription{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: hsl(30, 1%, 49%);
+    font-family: "Outfit", sans-serif;
+ }
+ .kal{
+    position: relative;
+    left: 315px;
+    bottom: 18px;
+    color: hsl(15, 62%, 36%);;
+    font-family: "Outfit", sans-serif;
+ }
+ .hr1{
+    margin-top: -8px;
+ }
+ .kal strong{
+    color: hsl(15, 62%, 36%);;
+ }
+.value{
+    color: hsl(30, 1%, 49%);
+    position: relative;
+    left: 27px;
+    font-family: "Outfit", sans-serif;
+}
+
+    
+    
+
